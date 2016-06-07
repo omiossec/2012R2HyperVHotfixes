@@ -232,7 +232,7 @@ function Get-MissingHotFixList {
 #>
 function Install-Hotfixes{
 	$wd = Get-Location
-    $zipLocation = "$wd\Hyper-V_2012R2_hotfixes_June2016.zip"
+    $zipLocation = "$wd\Hyper-V_2012R2_hotfixes_06_2016.zip"
     $hotfixDir = "$wd\hotfixes\"
 	#verify if hotfix .zip file can be found
     if(Test-Path $zipLocation){
